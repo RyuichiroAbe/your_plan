@@ -1,7 +1,7 @@
 .topPage {
   min-height: 93vh;
   padding-top: 30px;
-  background: #bababa;
+  background: #3e3e3e;
   overflow-x: scroll;
   .listWrapper {
     display: flex;
@@ -24,19 +24,18 @@
         &_title {
           font-size: 20px;
           margin: 0;
+          font-family: arial unicode ms;
         }
         &_action {
           .fa-pen, .fa-trash {
             font-size: 18px;
-            color: #8c8c8c;
+            color: #00a9ff;
           }
           .fa-trash {
             margin-right: 10px;
           }
         }
       }
-
-     
       .cardWrapper {
         max-height: 76vh;
         .cardDetail_link {
